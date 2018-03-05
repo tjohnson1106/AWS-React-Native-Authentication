@@ -65,7 +65,10 @@ export default class App extends Component {
           style={styles.input}
           placeholder="confirmationCode"
         />
-        <Button title="Confirm sign up" onPress={this.confirmSignUp.bind(this)} />
+        <Button
+          title="Confirm sign up"
+          onPress={this.confirmSignUp.bind(this)}
+        />
       </View>
     );
   }
